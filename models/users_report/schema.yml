@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: 1_distinct_country_count
+    description: "Contains information about unique countries"
+    columns:
+      - name: reportDate
+        description: "A day when the statistics have been generated"
+      - name: operationSystem
+        description: "A user operating system"
+      - name: distincCountCountry
+        description: "Distinct country count"  
+
+  - name: 2_total_page_views
+    description: "Contains information about total views"
+    columns:
+      - name: reportDate
+        description: "A day when the statistics have been generated"
+      - name: operationSystem
+        description: "A user operating system"
+      - name: totalPageViews
+        description: "Distinct country count"  
+
+  - name: users_report
+    description: "Final report"
+    columns:
+      - name: reportDate
+        description: "A day when the statistics have been generated"
+      - name: operationSystem
+        description: "A user operating system"
+      - name: distincCountCountry
+        description: "Distinct country count"  
+      - name: totalPageViews
+        description: "Distinct country count"  
